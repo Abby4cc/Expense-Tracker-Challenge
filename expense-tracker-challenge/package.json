@@ -1,6 +1,7 @@
 {
   "name": "expense-tracker-challenge",
   "version": "0.1.0",
+  "homepage": "https://github.com/Abby4cc/Expense-Tracker-Challenge",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
