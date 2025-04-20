@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  background: #f7f9fc;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.bot-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.2s ease;
+}
+.bot-card:hover {
+  transform: scale(1.05);
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.discharge-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 0.4rem 0.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
